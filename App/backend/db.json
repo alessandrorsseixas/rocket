@@ -1,0 +1,16 @@
+{
+    "portes":[
+        {
+            "id":"pequena",
+            "nome":"Pequeno"
+        },
+        {
+            "id":"media",
+            "nome":"Média"
+        },
+        {
+            "id":"grande",
+            "nome":"Grande"
+        }
+    ]
+}
