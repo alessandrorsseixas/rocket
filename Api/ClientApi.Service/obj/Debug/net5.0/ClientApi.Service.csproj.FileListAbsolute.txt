@@ -1,0 +1,15 @@
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\bin\Debug\net5.0\ClientApi.Service.deps.json
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\bin\Debug\net5.0\ClientApi.Service.dll
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\bin\Debug\net5.0\ref\ClientApi.Service.dll
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\bin\Debug\net5.0\ClientApi.Service.pdb
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\bin\Debug\net5.0\ClienteApi.Domain.dll
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\bin\Debug\net5.0\ClienteApi.Domain.pdb
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\obj\Debug\net5.0\ClientApi.Service.csprojAssemblyReference.cache
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\obj\Debug\net5.0\ClientApi.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\obj\Debug\net5.0\ClientApi.Service.AssemblyInfoInputs.cache
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\obj\Debug\net5.0\ClientApi.Service.AssemblyInfo.cs
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\obj\Debug\net5.0\ClientApi.Service.csproj.CoreCompileInputs.cache
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\obj\Debug\net5.0\ClientApi.Service.csproj.CopyComplete
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\obj\Debug\net5.0\ClientApi.Service.dll
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\obj\Debug\net5.0\ref\ClientApi.Service.dll
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClientApi.Service\obj\Debug\net5.0\ClientApi.Service.pdb

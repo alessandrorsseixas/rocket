@@ -1,0 +1,333 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientWebApi\\ClientWebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientApi.Service\\ClientApi.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientApi.Service\\ClientApi.Service.csproj",
+        "projectName": "ClientApi.Service",
+        "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientApi.Service\\ClientApi.Service.csproj",
+        "packagesPath": "C:\\Users\\alessandro.seixas\\.nuget\\packages\\",
+        "outputPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientApi.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alessandro.seixas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj": {
+                "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj",
+        "projectName": "ClienteApi.Domain",
+        "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\alessandro.seixas\\.nuget\\packages\\",
+        "outputPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alessandro.seixas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.2, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj",
+        "projectName": "ClienteApi.Respotirory",
+        "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj",
+        "packagesPath": "C:\\Users\\alessandro.seixas\\.nuget\\packages\\",
+        "outputPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Respotirory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alessandro.seixas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj": {
+                "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientWebApi\\ClientWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientWebApi\\ClientWebApi.csproj",
+        "projectName": "ClientWebApi",
+        "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientWebApi\\ClientWebApi.csproj",
+        "packagesPath": "C:\\Users\\alessandro.seixas\\.nuget\\packages\\",
+        "outputPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientWebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alessandro.seixas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientApi.Service\\ClientApi.Service.csproj": {
+                "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientApi.Service\\ClientApi.Service.csproj"
+              },
+              "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj": {
+                "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj"
+              },
+              "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj": {
+                "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

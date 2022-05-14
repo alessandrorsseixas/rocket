@@ -1,0 +1,12 @@
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClienteApi.Domain\bin\Debug\net5.0\ClienteApi.Domain.deps.json
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClienteApi.Domain\bin\Debug\net5.0\ClienteApi.Domain.dll
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClienteApi.Domain\bin\Debug\net5.0\ref\ClienteApi.Domain.dll
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClienteApi.Domain\bin\Debug\net5.0\ClienteApi.Domain.pdb
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClienteApi.Domain\obj\Debug\net5.0\ClienteApi.Domain.csprojAssemblyReference.cache
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClienteApi.Domain\obj\Debug\net5.0\ClienteApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClienteApi.Domain\obj\Debug\net5.0\ClienteApi.Domain.AssemblyInfoInputs.cache
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClienteApi.Domain\obj\Debug\net5.0\ClienteApi.Domain.AssemblyInfo.cs
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClienteApi.Domain\obj\Debug\net5.0\ClienteApi.Domain.csproj.CoreCompileInputs.cache
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClienteApi.Domain\obj\Debug\net5.0\ClienteApi.Domain.dll
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClienteApi.Domain\obj\Debug\net5.0\ref\ClienteApi.Domain.dll
+D:\Alessandro Seixas\Pessoal\Projeto\Api\ClienteApi.Domain\obj\Debug\net5.0\ClienteApi.Domain.pdb
