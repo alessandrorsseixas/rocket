@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "27eiUu4mPzqI5FZZB7HxsUXb6V8L7sr4JUKXoDUKylgdfF9WWv3LiOvXTXckgelr1CQD1u0WUc1ceCYxT2GwYA==",
+  "dgSpecHash": "qwcBvDnBS2YVzUIFjYa02hE6a+C1sTi0px61j3ssAMCPBWHUY4Sx1KoX+MzUXgtlP+FCKzVotCLI5GIaZOuO/w==",
   "success": true,
-  "projectFilePath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientWebApi\\ClientWebApi.csproj",
+  "projectFilePath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClientWebApi\\ClientWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alessandro.seixas\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\alessandro.seixas\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

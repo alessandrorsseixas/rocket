@@ -5971,11 +5971,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj",
+      "projectUniqueName": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj",
       "projectName": "ClienteApi.Respotirory",
-      "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj",
+      "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj",
       "packagesPath": "C:\\Users\\alessandro.seixas\\.nuget\\packages\\",
-      "outputPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Respotirory\\obj\\",
+      "outputPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Respotirory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5995,8 +5995,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj": {
-              "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj"
+            "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj": {
+              "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj"
             }
           }
         }

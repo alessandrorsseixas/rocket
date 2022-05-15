@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZhUedyixthQtUQMNOkj8t4R5kaXgm5FPbApcMv3JKdA4k83U+rVtSiRqBTDyhauUMLOPpt/D1WIm4fCA/OPMNA==",
+  "dgSpecHash": "yaKg6wcEY/PoW95e5gL+kmvYWE4WV9pmZjzFIjHs0Xpjpfi+RqnwFTd73GCUCtjCm2M1TRcB8YdHRFjqmyu60w==",
   "success": true,
-  "projectFilePath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj",
+  "projectFilePath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alessandro.seixas\\.nuget\\packages\\fluentvalidation\\9.5.2\\fluentvalidation.9.5.2.nupkg.sha512",
     "C:\\Users\\alessandro.seixas\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"

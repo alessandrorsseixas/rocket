@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj": {}
+    "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj": {
+    "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj",
+        "projectUniqueName": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj",
         "projectName": "ClienteApi.Domain",
-        "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj",
+        "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj",
         "packagesPath": "C:\\Users\\alessandro.seixas\\.nuget\\packages\\",
-        "outputPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\obj\\",
+        "outputPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

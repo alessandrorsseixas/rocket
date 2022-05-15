@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O3Ahb/QzE/yoplJjda9nnCrRC06MVP/RrffhaUNJz8lb/y7IrIojK/irMAk/fiptBq8AyHAFKa9UyuAw/sC/pA==",
+  "dgSpecHash": "XXDXGLIQgbYRMcwKkUs9COSs3F+8V/vj9K0Fgq5OAXTB3neKHHgu4o9MNLFCye6nr2EntaKsy1h8VLB75dpcnw==",
   "success": true,
-  "projectFilePath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj",
+  "projectFilePath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alessandro.seixas\\.nuget\\packages\\fluentvalidation\\9.5.2\\fluentvalidation.9.5.2.nupkg.sha512",
     "C:\\Users\\alessandro.seixas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

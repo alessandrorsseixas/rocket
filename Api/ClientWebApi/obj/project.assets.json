@@ -6409,11 +6409,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientWebApi\\ClientWebApi.csproj",
+      "projectUniqueName": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClientWebApi\\ClientWebApi.csproj",
       "projectName": "ClientWebApi",
-      "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientWebApi\\ClientWebApi.csproj",
+      "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClientWebApi\\ClientWebApi.csproj",
       "packagesPath": "C:\\Users\\alessandro.seixas\\.nuget\\packages\\",
-      "outputPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientWebApi\\obj\\",
+      "outputPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClientWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6433,14 +6433,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientApi.Service\\ClientApi.Service.csproj": {
-              "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClientApi.Service\\ClientApi.Service.csproj"
+            "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClientApi.Service\\ClientApi.Service.csproj": {
+              "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClientApi.Service\\ClientApi.Service.csproj"
             },
-            "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj": {
-              "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj"
+            "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj": {
+              "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Domain\\ClienteApi.Domain.csproj"
             },
-            "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj": {
-              "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj"
+            "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj": {
+              "projectPath": "D:\\Alessandro Seixas\\Pessoal\\Projeto\\rocket\\Api\\ClienteApi.Respotirory\\ClienteApi.Respotirory.csproj"
             }
           }
         }
