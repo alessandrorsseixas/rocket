@@ -1,3 +1,4 @@
+import { AppJsonserverService } from './app.jsonserver.service';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
@@ -10,14 +11,14 @@ import { AppGenericeService } from './app.generic.service';
 })
 export class PorteService {
 
-  constructor(private http: HttpClient,private appGeneric:AppGenericeService<Portes>) { 
+  constructor(private http: HttpClient,private appGeneric:AppJsonserverService<Portes>) { 
 
       appGeneric.apiServiceBase='http://localhost:3001/';
       appGeneric.apiController='portes'
   }
 
-  public get(): Observable<WebApiReturn> {
-    
+  public get(): Observable<Portes[]> {
     return this.appGeneric.get('');
   }
+
 }

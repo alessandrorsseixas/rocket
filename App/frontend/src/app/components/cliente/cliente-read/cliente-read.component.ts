@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
@@ -17,9 +18,9 @@ export class ClienteReadComponent implements AfterViewInit {
   dataSource: ClienteReadDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['nome','porte','acao'];
+  displayedColumns = ['nome','porte','editar','excluir'];
 
-  constructor(private clienteService:ClienteService) {
+  constructor(private clienteService:ClienteService,private router:Router) {
     this.dataSource = new ClienteReadDataSource();
   }
 
@@ -28,7 +29,7 @@ export class ClienteReadComponent implements AfterViewInit {
     this.clienteService.getAll(0,10,'',true,'').subscribe(webApireturn=>{
       if(webApireturn.transactionExecute){
 
-        this.dataSource.data = webApireturn.data
+        this.loadData(webApireturn.data); 
       }else{
 
         console.log(webApireturn);
@@ -40,5 +41,33 @@ export class ClienteReadComponent implements AfterViewInit {
     })
 
     
+    
+  }
+
+  loadData(data:ClienteReadItem[]):void{
+
+      this.dataSource.data = data
+
+  }
+
+
+  editCliente(id:string):void{
+    this.router.navigate([`update/${id}`])
+  } 
+
+  deleteCliente(id:string):void{
+      this.clienteService.delete(id).subscribe(webApiReturn=>{
+          
+        if(webApiReturn.transactionExecute){
+
+            window.location.reload();
+
+          }else{
+
+              console.log(webApiReturn);
+          }
+
+      })
+
   }
 }

@@ -126,9 +126,9 @@ namespace ClientWebApi.Controller.v1
                 processingTime = stopwatch.Elapsed;
 
 
-                var _clienteModel = _mapper.Map<ClienteViewModel>(_cliente.SingleOrDefault());
+                var _clienteModels = _mapper.Map<List<ClienteViewModel>>(_cliente);
 
-                return await CustomResponse(200, processingTime, _clienteModel, null);
+                return await CustomResponse(200, processingTime, _clienteModels, null);
             }
             catch (Exception ex)
             {

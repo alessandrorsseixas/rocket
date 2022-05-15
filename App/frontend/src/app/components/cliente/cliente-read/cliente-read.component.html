@@ -15,10 +15,16 @@
       <td mat-cell *matCellDef="let row">{{row.porte | uppercase}}</td>
     </ng-container>
 
-    <ng-container matColumnDef="acao">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header>AÇÃO</th>
+    <ng-container matColumnDef="editar">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header></th>
       <td mat-cell *matCellDef="let row">
-      
+          <button (click)="editCliente(row.code)" >Editar</button>
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="excluir">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header></th>
+      <td mat-cell *matCellDef="let row">
+          <button (click)="deleteCliente(row.code)" >Excluir</button>
       </td>
     </ng-container>
 

@@ -54,32 +54,28 @@ export abstract class AppGenericeService<T extends ResourceModel<T>> {
   }
  
 
-  public get(endpoint: string=''): Observable<WebApiReturn> {
-    this.apiEndpoint = endpoint;
-    return this.webApiReturn = this.httpClient
-      .get<WebApiReturn>(`${this.apiServiceBase}/${this.apiController}${this.apiEndpoint}`)
-  }
+  
 
   public getById(id: string,endpoint: string=''): Observable<WebApiReturn> {
     this.apiEndpoint = endpoint;
-    return this.webApiReturn = this.httpClient
-      .get<WebApiReturn>(`${this.apiServiceBase}/${this.apiController}${this.apiEndpoint}/${id}`)
+    return this.httpClient
+      .get<WebApiReturn>(`${this.apiServiceBase}${this.apiController}${this.apiEndpoint}${id}`)
   }
 
-  public create(resource: Partial<T> & { toJson: () => T },endpoint: string=''): Observable<WebApiReturn>{
+  public create(resource:T,endpoint: string=''): Observable<WebApiReturn>{
     this.apiEndpoint = endpoint;
     return this.webApiReturn = this.httpClient
-      .post<WebApiReturn>(`${this.apiServiceBase}/${this.apiController}${this.apiEndpoint}`, resource.toJson())
+      .post<WebApiReturn>(`${this.apiServiceBase}${this.apiController}${this.apiEndpoint}`,resource)
   }
 
-  public update(resource: Partial<T> & { toJson: () => T },endpoint: string=''): Observable<WebApiReturn>{
+  public update(resource:T,endpoint: string=''): Observable<WebApiReturn>{
     this.apiEndpoint = endpoint;
     return this.webApiReturn = this.httpClient
-      .put<WebApiReturn>(`${this.apiServiceBase}/${this.apiController}${this.apiEndpoint}`, resource.toJson())
+      .put<WebApiReturn>(`${this.apiServiceBase}${this.apiController}${this.apiEndpoint}`, resource)
   }
 
    public delete(id: string,endpoint: string =''): Observable<WebApiReturn> {
      this.apiEndpoint = endpoint; 
-     return this.httpClient.delete<WebApiReturn>(`${this.apiServiceBase}/${this.apiController}${this.apiEndpoint}/${id}`);
+     return this.httpClient.delete<WebApiReturn>(`${this.apiServiceBase}${this.apiController}${this.apiEndpoint}${id}`);
    }
 }

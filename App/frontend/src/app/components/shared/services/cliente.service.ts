@@ -23,16 +23,16 @@ export class ClienteService {
     return  this.appGeneric.getAll(1,10,'nome',true,'','list-clientes');
   }
 
-  public getById(id: string,endpoint: string=''): Observable<WebApiReturn> {
+  public getById(id: string): Observable<WebApiReturn> {
    
-    return this.appGeneric.getById('');
+    return this.appGeneric.getById(id,'');
   }
 
-  public create(resource: Partial<Cliente> & { toJson: () => Cliente}): Observable<WebApiReturn>{
+  public create(resource: Cliente): Observable<WebApiReturn>{
     return this.appGeneric.create(resource,'add-cliente')
   }
 
-  public update(resource: Partial<Cliente> & { toJson: () => Cliente}): Observable<WebApiReturn>{
+  public update(resource: Cliente): Observable<WebApiReturn>{
     return this.appGeneric.update(resource,'update-cliente')
   }
 

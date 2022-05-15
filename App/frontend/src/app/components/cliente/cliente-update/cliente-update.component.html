@@ -1,0 +1,43 @@
+<pre>
+
+    {{this.clientes |json}}
+
+
+</pre>
+<mat-card>
+    <mat-card-title>Atualizar Cliente</mat-card-title>
+
+    <mat-card-content>
+
+        <form>
+
+            <mat-form-field class="example-full-width" appearance="fill">
+                <input matInput placeholder="Cliente" name="nome" [(ngModel)]="cliente.nome">
+            </mat-form-field>
+            
+            <mat-form-field appearance="fill">
+                <mat-label>Porte</mat-label>
+                <mat-select [(ngModel)]="cliente.porte" name="porte">
+                   <mat-option *ngFor="let porte of portes" [value]="porte.id">
+                    {{porte.nome}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+
+        </form>
+        <br>
+        <button mat-raised-button (click)="updateCliente()" color="primary">
+            Salvar
+        </button>
+    
+    
+        <button mat-raised-button (click)="cancel()" color="warn">
+            Cancel
+        </button>
+
+    </mat-card-content>
+</mat-card>
+
+
+
+
